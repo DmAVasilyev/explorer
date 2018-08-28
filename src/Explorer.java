@@ -6,7 +6,11 @@ public class Explorer {
             String list[] = file.list();
             for (String s : list) {
                 System.out.println(s);
+
             }
+
+            System.out.println(file.isDirectory());
+            System.out.println(file.toString());
         }
     }
 
